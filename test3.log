@@ -1,0 +1,21 @@
+ERROR:root:test exception message :[1, 3, 6]
+Traceback (most recent call last):
+  File "<ipython-input-1-1ac513b46c4f>", line 6, in <module>
+    raise Exception
+Exception
+WARNING:root:1
+ERROR:root:2
+WARNING:root:1
+ERROR:root:2
+WARNING:root:warning level message
+ERROR:root:error level message
+CRITICAL:root:critical level message
+WARNING:root:test warning output
+WARNING:root:test warning output : level = warning
+ERROR:root:test exception message :[1, 3, 6]
+Traceback (most recent call last):
+  File "<ipython-input-10-1ac513b46c4f>", line 6, in <module>
+    raise Exception
+Exception
+WARNING:root:1
+ERROR:root:2
